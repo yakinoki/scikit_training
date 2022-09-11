@@ -1,6 +1,11 @@
 from sklearn.datasets import make_classification
+#SVCはSVM Classificationの略。
 from sklearn.svm import LinearSVC
 from sklearn.model_selection import train_test_split
+import matplotlib
+import matplotlib.pyplot as plt
+import numpy as np
+
 
 x, y = make_classification(n_samples = 100,  n_features = 8, n_redundant = 3, random_state = 30)
 

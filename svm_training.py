@@ -1,4 +1,5 @@
 from sklearn.datasets import make_classification
+#SVCはSVM Classificationの略。
 from sklearn.svm import LinearSVC
 from sklearn.model_selection import train_test_split
 import matplotlib
